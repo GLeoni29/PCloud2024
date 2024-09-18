@@ -15,8 +15,6 @@ db = firestore.Client.from_service_account_json('credentials.json', database=db)
 app = Flask(__name__)
 
 
-
-
 # Variabile per tenere traccia del tempo di apertura dello sportello
 sportello_aperto_da = None
 stato_allarme = False
