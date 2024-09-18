@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 
 
+
 # apertura connessione DB Firestore
 db = 'test1'
 coll = 'Arduino1'
